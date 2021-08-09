@@ -1,0 +1,34 @@
+.menu-lateral {
+  grid-area: menu;
+  background: #fff;
+  overflow: hidden;
+}
+
+.menu-lateral a {
+  display: block;
+  padding: 15px 35px;
+  color: #000;
+  text-decoration: none;
+  min-width: 800px;
+}
+
+.menu-lateral a:hover {
+  background: #e5e5e5;
+  font-weight: bold;
+}
+
+.menu-lateral a .fas {
+  width: 20px;
+  color: #606060;
+  margin-right: 32px;
+  text-align: center;
+}
+
+.menu-lateral a.active {
+  background: #e5e5e5;
+  font-weight: bold;
+}
+
+.menu-lateral a.active .fas{
+  color: #ff0000;
+}

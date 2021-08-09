@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Open Sans',sans-serif;
+}
+
+.contenedor.active {
+  grid-template-columns: minmax(300px, 18%) auto;
+}
+
+.contenedor {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: minmax(90px,90px) auto;
+  grid-template-rows: 60px auto;
+  grid-template-areas: "header  header"
+                       "menu    contenido";
+
+  transition: .3s ease all;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid #dfdfdf;
+}
